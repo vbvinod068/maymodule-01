@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  main {
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: #cdcdcd;
+  }
+  
+  header {
+    padding: 0.8em;
+    background-color: black;
+  
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  
+  article {
+    height: 100%;
+    padding: 1%;
+    background-color: #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Search box container */
+  .search-container {
+    width: 100%;
+    padding: 0.1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  
+  #search-box {
+    flex-grow: 1;
+    padding: 0.4em;
+    border: 1px solid black;
+    background-color: #d9d9d9;
+  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .btns {
+    padding: 0.4em;
+    width: 8em;
+    border: none;
+    background-color: black;
+    color: white;
+  
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: 2px 2px 4px black;
+  }
+  
+  .btns:active {
+    box-shadow: 0px 0px 4px black;
+  }
+  
+  .btns:hover {
+    cursor: pointer;
+    background-color: rgb(31, 30, 30);
+  }
+  
+  /* Buttons container */
+  .sort-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 0.3em;
+    gap: 2em;
+    margin-top: 20px;
+  }
+  
+  .sort-container > .btns {
+    flex-grow: 1;
+  }
+  
+  /* Table */
+  .info-table {
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .info-table > table {
+    width: 100%;
+    /* flex-grow: 1; */
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  td,
+  th {
+    /* height: 50px; */
+    background-color: #d9d9d9;
+    border: 2px solid black;
+  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .center-text {
+    text-align: center;
+  }
+  thead th {
+    position: sticky;
+    top: 0px;
+    font-weight: bold;
+    /* outline : 2px solid black; */
+  }
+  
+  td > img {
+    width: 30px;
+    height: 30px;
+  }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend 2 Project May 24</title>
+    <!-- Inter google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <!-- Google icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p>Student Portal</p>
+      </header>
+      <article>
+        <section class="search-container">
+          <input type="text" placeholder="Search" id="search-box" />
+          <button class="btns" type="button" id="search-btn">Search</button>
+        </section>
+        <!-- Buttons for sorting -->
+        <section class="sort-container">
+          <button class="btns" type="button" id="ascending-btn">
+            Sort A &rarr; Z
+          </button>
+          <button class="btns" type="button" id="descending-btn">
+            Sort Z &rarr; A
+          </button>
+          <button class="btns" type="button" id="mark-btn">
+            Sort By Marks
+          </button>
+          <button class="btns" type="button" id="passing-btn">
+            Sort By Passing
+          </button>
+          <button class="btns" type="button" id="class-btn">
+            Sort By Class
+          </button>
+          <button class="btns" type="button" id="gender-btn">
+            Sort By Gender
+          </button>
+        </section>
+        <section class="info-table">
+          <table>
+            <thead>
+              <tr>
+                <th class="center-text">ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+                <th>City</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td class="stu-id center-text">1</td>
+                <td class="stu-name">
+                  <img
+                    src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1"
+                    alt="student-image"
+                  />
+                  Avi Vashishta
+                </td>
+                <td class="stu-gender">Male</td>
+                <td class="stu-class">12</td>
+                <td class="stu-marks">99</td>
+                <td class="stu-passing">Failed</td>
+                <td class="stu-email">avi@gmail.com</td>
+                <td class="stu-city">Vellore</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </section>
+      </article>
+    </main>
+    <!-- JS file -->
+    <script src="./dataset.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
